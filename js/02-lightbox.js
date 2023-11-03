@@ -27,9 +27,5 @@ var lightbox = new SimpleLightbox('.gallery a', {
 
 });
 
-const onGalleryImgClick = (event) => {
-    event.preventDefault();
-}
-galleryEl.addEventListener('click', onGalleryImgClick);
 
 console.log(galleryItems);
